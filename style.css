@@ -312,7 +312,6 @@ a{
 
 @media (max-width:500px){
     .bg{
-       width: 100%;
        margin-left:0 ;
        
     }
@@ -565,28 +564,29 @@ section{
     }
     .jhola{
         width: 80%;
-        margin-left: 10%;
+        
     }
     .chtki{
         display: flex;
         flex-direction: column;
     }
     .ginl{
-        margin-left: 10%;
+            
         margin-top: 20px;
+        margin-left: 0;
         width: 80%;
     }
     .gini{
         width: 80%;
-        margin-left: 10%;
+        
     }
     .fki{
-        margin-left: 10%;
+       
         width: 80%;
     }
     .bunty{
         width: 80%;
-        margin-left: 10%;
+        
     }
     .bhem{
         width: 100%;
@@ -595,22 +595,33 @@ section{
 }
 @media (max-width:450px){
     .ginl{
-        width:80%;
+        width:90%;
+        margin-left: 0%;
     }
     .jhola{
-        width: 80%;
+        width: 90%;
+        margin-left: 0%;
+
     }
     .gini{
-        width: 80%;
+        width: 90%;
+        margin-left: 0%;
+
     }
     .fki{
-        width: 80%;
+        width: 90%;
+        margin-left: 0%;
+
     }
     .bunty{
-        width: 80%;
+        width: 90%;
+        margin-left: 0%;
+
     }
     .den{
         width: 100%;
+        margin-left: 10%;
+
     }
 
 }
