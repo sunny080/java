@@ -603,4 +603,36 @@ section{
     .den{
         width: 100%;
     }
+
+}
+.bhii{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.dplk{
+    width: 80%;
+
+}
+.lool{
+    font-size: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 30px;
+}
+.gikj{
+    font-size: 50px;
+    
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(84, 154, 172);
+}
+@media (max-width:570px){
+    .gikj{
+        font-size: 30px;
+    }
+}
+@media (max-width:400px){
+    .gikj{
+        font-size: 25px;
+    }
 }
