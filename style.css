@@ -78,7 +78,9 @@
     }
 }
 
-
+.cena{
+     height: 100px;
+}
 
 
 
@@ -151,6 +153,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-top: 100px;
 }
 .fpt{
     width: 150px;
@@ -324,4 +327,39 @@
 
 section{
     height: 150px;
+    display: block;
 }
+.pop{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 50px;
+    color: rgb(70, 70, 70);
+}
+.jhony{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+.flopo{
+    width: 80%;
+}
+.oppo{
+    width: 50%;
+
+}
+.jimy{
+    display: flex;
+    justify-content: center;
+}
+.gio{
+    width: 100px;
+    height: 50px;
+    margin:15px 15px;    
+}
+.beta{
+    width: 100%;
+    
+}
+
