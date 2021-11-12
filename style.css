@@ -87,7 +87,9 @@ a{
      height: 100px;
 }
 
-
+.fui{
+    color: rgb(85, 155, 221);
+}
 
 
 
@@ -336,9 +338,10 @@ section{
 }
 .pop{
     text-align: center;
-    font-size: 28px;
+    font-size: 38px;
     margin-top: 50px;
     color: rgb(70, 70, 70);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .jhony{
     width: 100%;
@@ -407,3 +410,197 @@ section{
     }
   
 } 
+.behan{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.cho{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+        
+}
+.fillp{
+    width: 100%;
+}
+.holo{
+    color: rgb(84, 154, 172);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+     font-size: 60px;
+     width:850px;
+    line-height: 80px;
+    
+}
+.bhem{
+    width: 540px;
+    font-size: 22px;
+    margin-top: 40px;
+    color: rgb(41, 40, 40);
+    line-height: 40px;
+
+}
+.lik{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.den{
+    width: 80%;
+
+}
+.chtki{
+    width: 100%;
+}
+.gini{
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 224, 224);
+    padding-left: 10px;
+    
+    font-size: 16px;
+}
+.gini:hover{
+    background-color: rgb(238, 238, 238);
+}
+.gini:focus{
+    background-color:rgb(238, 238, 238) ;
+}
+.ginl{
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 224, 224);
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.ginl:hover{
+    background-color:rgb(238, 238, 238) ;
+}
+.ginl:focus{
+    background-color:rgb(238, 238, 238) ;
+}
+
+.fki{
+    width: 524px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    background-color: rgb(224, 224, 224);
+    padding-left: 10px;
+    font-size: 16px;
+}
+.fki:hover{
+    background-color:rgb(238, 238, 238) ;
+
+}
+.fki:focus{
+    background-color:rgb(238, 238, 238) ;
+
+}
+.bunty{
+    width: 523px;
+    margin-top: 20px;
+    height: 130px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 224, 224);
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+
+}
+.jhola{
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    color: rgb(76, 78, 78);
+    background: url(wave.png);
+    animation: dod 5s linear infinite;
+    cursor:pointer;
+    z-index: 11;
+    background-color: #87cbe6;
+    font-size: 16px;
+    border: 2px solid  rgb(84, 154, 172);
+    border-radius: 30px;
+    
+}
+.jhola:hover{
+    transition: .3s;
+    font-size: 17px;
+    scale: 1.1;
+}
+@media (max-width:1000px) {
+    .holo{
+        width:100%;
+    }
+    
+}
+@media (max-width:700px){
+    .holo{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .jhola{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .chtki{
+        display: flex;
+        flex-direction: column;
+    }
+    .ginl{
+        margin-left: 10%;
+        margin-top: 20px;
+        width: 80%;
+    }
+    .gini{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .fki{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .bunty{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .bhem{
+        width: 100%;
+        font-size: 21px;
+    }
+}
+@media (max-width:450px){
+    .ginl{
+        width:80%;
+    }
+    .jhola{
+        width: 80%;
+    }
+    .gini{
+        width: 80%;
+    }
+    .fki{
+        width: 80%;
+    }
+    .bunty{
+        width: 80%;
+    }
+    .den{
+        width: 100%;
+    }
+}
