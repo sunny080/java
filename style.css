@@ -3,6 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
+a{
+    list-style: none;
+    text-decoration: none;
+}
 
 
 *{
@@ -10,6 +14,7 @@
     margin: 0;
     font-family: sans-serif;
     padding: 0;
+    
 }
 
 
@@ -346,7 +351,7 @@ section{
     width: 80%;
 }
 .oppo{
-    width: 50%;
+    width: 100%;
 
 }
 .jimy{
@@ -354,12 +359,51 @@ section{
     justify-content: center;
 }
 .gio{
-    width: 100px;
-    height: 50px;
-    margin:15px 15px;    
+    width: 15px;
+    height: 15px;
+    margin:15px 15px;  
+    color: rgb(76, 78, 78);
+    background: url(wave.png);
+    animation: dod 2s linear infinite;
+    cursor:pointer;
+    z-index: 11;
+    background-color: #00bfff;
+    font-size: 16px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;  
 }
-.beta{
-    width: 100%;
-    
+.gio:hover{
+    scale: 1.1;
+    transition: .3s;
 }
 
+.beta{
+    width: 100%;
+    height: 800px;
+    
+}
+#sofa{
+    transition: all .3s;
+}
+@media (max-width:1300px) {
+    .beta{
+        height: 600px;
+    }
+    
+}
+@media (max-width:850px) {
+    .beta{
+        height: 400px;
+
+    }
+    .flopo{
+        width: 90%;
+    }
+    
+}
+@media (max-width:550px){
+    .beta{
+        height: auto;
+    }
+  
+} 
