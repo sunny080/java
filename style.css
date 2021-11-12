@@ -313,7 +313,11 @@ a{
 @media (max-width:500px){
     .bg{
        margin-left:0 ;
+       width: 100%;
        
+    }
+    .dog{
+        margin-top: -40px;
     }
     .loop{
         width: 90%;
